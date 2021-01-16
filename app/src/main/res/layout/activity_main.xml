@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/mainbackgroundimage"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/backgroundteslaapp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/welcome_to_tesla_quiz"
+            android:textSize="20sp"
+            android:paddingLeft="105dp"
+            android:paddingTop="120dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/do_you_really_know_about_tesla"
+            android:textSize="20sp"
+            android:paddingLeft="70dp"
+            android:paddingTop="142dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/let_s_find_out"
+            android:textSize="20sp"
+            android:paddingLeft="140dp"
+            android:paddingTop="163dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/elon_musk_was_born_and_raised_in_which_country"
+            android:textSize="17sp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:paddingTop="210dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/questonOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="255dp"
+            android:paddingLeft="20dp"
+            tools:ignore="UselessParent">
+
+            <RadioButton
+                android:id="@+id/canada_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="12dp"
+                android:text="@string/canada"
+                android:elevation="4dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/southAfrica_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="12dp"
+                android:text="@string/south_africa"
+                android:elevation="4dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/Netherlands_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="12dp"
+                android:text="@string/israel"
+                android:elevation="4dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/questonTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tesla_was_founded_in_2003_what_was_its_first_electric_car_called"
+            android:textSize="17sp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:paddingTop="335dp"
+            android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_below="@id/questonTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="1dp"
+                android:paddingLeft="20dp"
+                tools:ignore="UselessParent">
+
+            <RadioButton
+                android:id="@+id/falcon_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="12dp"
+                android:text="@string/falcon"
+                android:elevation="4dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/models_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="12dp"
+                android:text="@string/model_s"
+                android:elevation="4dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/roadster_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_margin="12dp"
+                android:text="@string/raodster"
+                android:elevation="4dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            </RadioGroup>
+
+        <TextView
+            android:id="@+id/questonTre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/which_german_automaker_acquired_a_10_percent_stake_in_tesla_in_2010"
+            android:textSize="17sp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:paddingTop="625dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/que4stonOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="670dp"
+                android:paddingLeft="20dp"
+                tools:ignore="UselessParent">
+
+                <RadioButton
+                    android:id="@+id/bmw_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:layout_margin="12dp"
+                    android:text="@string/bmw"
+                    android:elevation="4dp"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/radio_selector"
+                    android:textColor="@drawable/text_color"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/daimler_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:layout_margin="12dp"
+                    android:text="@string/daimler"
+                    android:elevation="4dp"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/radio_selector"
+                    android:textColor="@drawable/text_color"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/volksvagen_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:layout_margin="12dp"
+                    android:text="@string/volkswagen"
+                    android:elevation="4dp"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/radio_selector"
+                    android:textColor="@drawable/text_color"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+                <TextView
+                     android:id="@+id/questonFour"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:text="@string/who_has_more_twitter_followers_than_elon_musk_choose_two"
+                     android:textSize="17sp"
+                     android:paddingLeft="28dp"
+                     android:paddingRight="28dp"
+                     android:paddingTop="745dp"
+                     android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/taylor_swift_me_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="800dp"
+            android:button="@drawable/checkbox"
+            android:text="@string/taylor_swift"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            app:buttonTint="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/beyonce_me_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="851dp"
+            android:button="@drawable/checkbox"
+            android:text="@string/beyonce"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            app:buttonTint="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/kayne_west_me_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="800dp"
+            android:button="@drawable/checkbox"
+            android:text="@string/kayne_west"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            app:buttonTint="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/l_d_cabrio_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="851dp"
+            android:button="@drawable/checkbox"
+            android:text="@string/l_d_cabrio"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            app:buttonTint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/questonFive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/when_musk_unveiled_the_model_3_in_2016_how_much_did_he_say_it_would_cost"
+            android:textSize="17sp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:paddingTop="910dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/que4stonfive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="955dp"
+                android:paddingLeft="20dp"
+                tools:ignore="UselessParent">
+
+                <RadioButton
+                    android:id="@+id/dollar1radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:layout_margin="12dp"
+                    android:text="@string/_45_000"
+                    android:elevation="4dp"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/radio_selector"
+                    android:textColor="@drawable/text_color"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/dollar2_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:layout_margin="12dp"
+                    android:text="@string/_35_000"
+                    android:elevation="4dp"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/radio_selector"
+                    android:textColor="@drawable/text_color"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/dollar3_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:layout_margin="12dp"
+                    android:text="@string/_30_000"
+                    android:elevation="4dp"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/radio_selector"
+                    android:textColor="@drawable/text_color"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/which_year_was_tesla_founded"
+            android:textSize="17sp"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="1040dp"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/questonSix"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:hint="@string/year"
+            android:layout_marginLeft="28dp"
+            android:background="@drawable/custom_input2"
+            android:layout_marginTop="1080dp"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/now_you_can_check_your_answers"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#C62828"
+            android:paddingTop="1150dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/then_fill_your_name_in_the_field_below"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#C62828"
+            android:paddingTop="1170dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/and_press_submit_to_see_your_score"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#C62828"
+            android:paddingTop="1190dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:paddingLeft="45dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/custom_input"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1235dp"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+
+        <Button
+            android:id="@+id/sendButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1315dp"
+            android:onClick="submitPoints"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/custom_button"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="add" />
+
+    </RelativeLayout>
+</ScrollView>

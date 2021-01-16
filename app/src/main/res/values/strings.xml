@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Tesla Quiz App</string>
+    <string name="name">Name</string>
+    <string name="taylor_swift">Taylor Swift</string>
+    <string name="beyonce">Beyonce</string>
+    <string name="kayne_west">Kayne West</string>
+    <string name="l_d_cabrio">L,D Cabrio</string>
+    <string name="when_musk_unveiled_the_model_3_in_2016_how_much_did_he_say_it_would_cost">When Musk unveiled the Model 3 in 2016, how much did he say it would cost?</string>
+    <string name="_45_000">$45,000</string>
+    <string name="_35_000">$35,000</string>
+    <string name="_30_000">$30,000</string>
+    <string name="now_you_can_check_your_answers">Now you can check your answers,</string>
+    <string name="then_fill_your_name_in_the_field_below">then fill your name in the field below</string>
+    <string name="and_press_submit_to_see_your_score">and press submit to see your score</string>
+    <string name="welcome_to_tesla_quiz">Welcome to Tesla Quiz!</string>
+    <string name="do_you_really_know_about_tesla">Do you really know about Tesla?</string>
+    <string name="elon_musk_was_born_and_raised_in_which_country">Elon Musk was born and raised in which country?</string>
+    <string name="canada">Canada</string>
+    <string name="south_africa">South Africa</string>
+    <string name="let_s_find_out">Let\'s find out!</string>
+    <string name="israel">Israel</string>
+    <string name="tesla_was_founded_in_2003_what_was_its_first_electric_car_called">Tesla was founded in 2003. What was its first electric car called?</string>
+    <string name="falcon">Falcon</string>
+    <string name="model_s">Model S</string>
+    <string name="raodster">Raodster</string>
+    <string name="which_german_automaker_acquired_a_10_percent_stake_in_tesla_in_2010">Which German automaker acquired a 10 percent stake in Tesla in 2010?</string>
+    <string name="bmw">BMW</string>
+    <string name="daimler">Daimler</string>
+    <string name="volkswagen">Volkswagen</string>
+    <string name="who_has_more_twitter_followers_than_elon_musk_choose_two">Who has more Twitter followers than Elon Musk (Choose two)?</string>
+    <string name="which_year_was_tesla_founded">Which year was tesla founded?</string>
+    <string name="year">Year</string>
+</resources>
